@@ -154,16 +154,3 @@ def run(playwright: Playwright) -> None:
 
 with sync_playwright() as playwright:
     run(playwright)
-
-
-    """all_elements = page.query_selector_all('.myClassName')
-    for element in all_elements:
-        inner_text = element.inner_text()
-        print(inner_text)
-
-    child_element = page.query_selector('.childClassName')
-    if child_element:
-        parent_element = child_element.parent()
-        if parent_element:
-            print(parent_element.inner_text())
-    """
