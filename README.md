@@ -15,4 +15,8 @@
 1. Prepare a csv file for data loading.
 2. Examples of columns to be included: img_filenames, case_id, answer options.
 
-## Modifying the prompt template in the code
+## Modifying the configuration and prompt template in the code
+1. Modify Line 8-13, 24, 72-75 in "GPT4VAutomation_cleaned.py"
+2. Run `python3 GPT4VAutomation_cleaned.py`
+
+## Analyze the collected results
