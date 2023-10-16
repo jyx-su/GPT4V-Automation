@@ -2,7 +2,7 @@
 
 ## Getting json file for login status
 
-1. Create a new conda environment, and `pip install pytest-playwright; playwright install`
+1. Create a new conda environment, and `pip install pytest-playwright thefuzz; playwright install`
 2. Modify the saving path at Line 11 of get_login_status.py
 3. Estimate how much time you need for the following steps, modify the delay at Line 10
 4. Run `python3 get_login_status.py`
