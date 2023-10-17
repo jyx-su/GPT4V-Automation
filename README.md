@@ -20,3 +20,9 @@
 2. Run `python3 GPT4VAutomation_cleaned.py`
 
 ## Analyze the collected results
+
+
+
+### Side notes
+1. If it's your first time running `GPT4VAutomation_cleaned.py` , I'll recommend you to change Line 85 to `headless=False` so that you can see it in action (to make sure it's working as expected)
+2. Please ping me if you encounter any issue. I've only tested it on MacOS, and I'll appreciate if any of you using Windows can tell me whether it works or not
