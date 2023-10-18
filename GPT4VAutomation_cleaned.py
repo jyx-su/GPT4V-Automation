@@ -94,7 +94,7 @@ def run(playwright: Playwright) -> None:
         tup = data_df.iloc[i]
         for re_try in range(3): #Max retry is 3 times
             try:
-                results[tup['img_filenames']] = single_chat(page, tup)
+                results[tup['imgpath']] = single_chat(page, tup)
             except Exception:
                 page_str = str(page.content())
                 start_index = page_str.find("You've reached the current usage cap for GPT-4.")
