@@ -7,7 +7,7 @@ async def run(playwright: Playwright):
     browser = await firefox.launch_persistent_context('', headless=False, timeout=0)
     page = await browser.new_page()
     await page.goto("https://chat.openai.com")
-    time.sleep(90)
+    time.sleep(360)
     storage = await browser.storage_state(path="state.json")
     
 async def main():
